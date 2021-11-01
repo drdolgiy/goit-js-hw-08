@@ -3,9 +3,9 @@ import { galleryItems } from './gallery-items';
 // Change code below this line
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import SimpleLightbox from "simplelightbox";
-console.log(SimpleLightbox);
 
 const galleryContainer = document.querySelector('.gallery');
+galleryContainer.style.listStyle = "none";
 
 const galleryMarkup = createGalleryItemsMarkup(galleryItems);
 
